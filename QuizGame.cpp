@@ -1,20 +1,57 @@
-// QuizGame.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include <cmath>
+ 
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	int choice;
+	bool run = true;
+
+	while (run != false) {
+		cout << "*******************************\n";
+		cout << "Welcome to the Quiz\n\n";
+		cout << " 1 - Easy\n";
+		cout << " 2 - Moderate\n";
+		cout << " 3 - Advanced\n";
+		cout << " 4 - QUIT\n\n";
+		cout << "Please choose your difficulty and press return: \n";
+
+		cin >> choice;
+
+		switch (choice)
+		{
+		case 1:
+
+
+		case 2:
+			
+
+		case 3:
+			
+
+
+		case 4:
+			cout << "QUITTING.\n\n";
+			cout << "Goodbye.\n";
+			cout << "*******************************\n";
+			run = false;
+			break;
+
+		default:
+			cout << "Not a Valid Choice. \n";
+			cout << "Choose again.\n";
+			cin >> choice;
+			break;
+		}
+
+		
+
+		cout << "Goodbye.\n";
+		cout << "*******************************\n";
+		run = false;
+		break;
+	}
+	return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
