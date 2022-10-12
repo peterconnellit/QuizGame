@@ -4,6 +4,37 @@
 
 using namespace std;
 
+void displayMenu() {
+	// code to be executed
+}
+
+void randomInt() {
+	// code to be executed
+}
+
+void generateOperands() {
+	// code to be executed
+}
+
+void displayProblem() {
+	// code to be executed
+}
+
+void isCorrect() {
+	// code to be executed
+}
+
+void displayMessage() {
+	// code to be executed
+}
+
+void displayFinalResults() {
+	// code to be executed
+}
+
+
+
+
 int main()
 {
 	int choice;
